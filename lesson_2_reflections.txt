@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializes empty repository with no commits
+you need to manually add files to track
+git init  - to initialize
+git status - to see status
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is intermediary stage between working dir and commit. You add files to staging area and when ready you commit all at once in single commit
+
