@@ -7,3 +7,23 @@ git status - to see status
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is intermediary stage between working dir and commit. You add files to staging area and when ready you commit all at once in single commit
 
+git diff Revisited
+git diff :  working directory  && staging area
+git diff --staged: staging area && commit 1
+git diff id1 id2 : commit 1 && commit 2
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add file to staging area as soon as logical change is complete. Do not add stuff to staging area that you are working as a part of other change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+To keep working on two different features that will be merged later
+
+How do the diagrams help you visualize the branch structure?
+Understand which node you are in the commit history and what history is available, and what nodes are unreachable
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+After a new feature has been tested and ready to go into production you would want to merge and update it to the production line
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: dont have to always manually merge when changes made in diff parts of file
+con: Cant always check if merge was correctly done by GIT
